@@ -1,0 +1,26 @@
+{
+  "name": "interact_gen",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@zilliz/milvus2-sdk-node": "^2.5.10",
+    "next": "16.0.10",
+    "openai": "^6.10.0",
+    "react": "19.2.1",
+    "react-dom": "19.2.1",
+    "react-markdown": "^10.1.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "16.0.10",
+    "tailwindcss": "^4"
+  }
+}
