@@ -60,9 +60,9 @@ npm run dev
 
 ## 📁 Project Structure (High Level)
 
-/frontend → Next.js UI, session handling, and user interactions
-/backend → Node.js APIs for context management and retrieval
-/embeddings → Embedding generation, storage, and Milvus queries
+- **/frontend** → Next.js UI for session handling, user interactions, and rendering context-aware suggestions  
+- **/backend** → Node.js APIs for managing context, handling queries, and serving embedding data  
+- **/embeddings** → Modules for embedding generation, vector storage, and Milvus-based semantic search
 
 
 ---
@@ -91,4 +91,5 @@ The goal is to move from **reactive recall** to **proactive, intent-aware assist
 - Scalable **Milvus indexing and retrieval** for higher data volumes
 - Cleaner **Node.js service abstractions and APIs**
 - UX improvements in **Next.js** for faster, more intuitive contextual exploration
+
 
