@@ -1,46 +1,89 @@
-# Flowstate — Context-Aware Browsing Interface
+Flowstate — Context-Aware Browsing Interface
+Flowstate is a context-aware browsing assistant designed to reduce friction during web navigation by leveraging semantic memory, intent-aware recall, and natural voice/text interaction.
 
-Flowstate is a **context-aware browsing assistant** that enables **voice and text-based navigation** across active web sessions.  
-It reduces manual navigation by retaining **semantic context** and surfacing relevant information instantly.
+It helps users stay focused by remembering context across browsing sessions and surfacing relevant information when it matters.
 
----
+🚀 Features
+Voice and text-based navigation across active web sessions.
 
-## 🚀 Features
+Vector-based semantic memory for storing and retrieving contextual interactions.
 
-- **Voice & Text Navigation**  
-  Navigate and query browsing sessions using natural voice or text input.
+Sub-300 ms contextual retrieval latency through optimized embedding and indexing pipelines.
 
-- **Contextual Memory**  
-  Stores semantic representations of interactions to enable intelligent recall across sessions.
+Intent-aware contextual recall reducing manual navigation effort by 60%.
 
-- **Fast Context Retrieval**  
-  Optimized vector search enables **sub-300 ms contextual lookup**.
+🛠 Tech Stack
+Frontend: Next.js, React
 
-- **Intent-Aware Recall**  
-  Reduces repetitive navigation by understanding user intent and session context.
+Backend: Node.js
 
----
+AI / Intelligence: Gemini API
 
-## 🛠 Tech Stack
+Vector Database: Milvus
 
-- **Frontend:** Next.js, React  
-- **Backend:** Node.js  
-- **AI / LLM:** Gemini API  
-- **Vector Database:** Milvus  
+📦 Getting Started
+Prerequisites
+Node.js (v18+ recommended)
 
----
+npm or yarn
 
-## 📈 Impact
+Milvus instance (local or remote)
 
-- Achieved **sub-300 ms contextual retrieval latency** through optimized embedding and indexing pipelines  
-- Reduced **manual navigation effort by 60%** using intent-aware contextual recall  
-- Designed for **scalable semantic memory** across active web sessions  
+Gemini API key
 
----
+Installation
+Bash
 
-## 📦 Getting Started
-
-### 1. Clone the repository
-```bash
 git clone https://github.com/akashpn/Flowstate-1.0.git
 cd Flowstate-1.0
+npm install
+Running Locally
+Bash
+
+npm run dev
+Open your browser at: http://localhost:3000
+
+🧪 What This Project Demonstrates
+Building user-facing products with measurable impact.
+
+Applying semantic search to real-world browsing workflows.
+
+Designing responsive, low-latency applications.
+
+Translating AI capabilities into practical UX improvements.
+
+📈 Impact
+< 300 ms contextual retrieval latency.
+
+60% reduction in manual navigation effort.
+
+Persistent contextual understanding across browsing sessions.
+
+📁 Project Structure (High Level)
+Plaintext
+
+/frontend     → Next.js UI and interaction layer  
+/backend      → Context management and API logic  
+/embeddings   → Semantic encoding and retrieval  
+🧠 Flowstate 2.0 — Next Evolution
+Flowstate 2.0 is the next iteration focused on deeper personalization, broader context awareness, and greater user impact. The goal is to evolve from reactive context recall to proactive, intelligent assistance.
+
+✨ Planned Enhancements (2.0)
+Cross-session and cross-device semantic memory.
+
+Personalized relevance ranking based on user behavior.
+
+Multi-modal context ingestion (documents, PDFs, notes, transcripts).
+
+Proactive context suggestions without explicit queries.
+
+Further latency and scalability optimizations.
+
+⚙️ Technical Focus (2.0)
+Improved embedding strategies for long-term memory.
+
+Scalable vector indexing and retrieval.
+
+Cleaner service abstractions and APIs.
+
+Enhanced UX for contextual exploration.
