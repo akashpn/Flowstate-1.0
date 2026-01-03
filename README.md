@@ -1,89 +1,81 @@
-Flowstate — Context-Aware Browsing Interface
-Flowstate is a context-aware browsing assistant designed to reduce friction during web navigation by leveraging semantic memory, intent-aware recall, and natural voice/text interaction.
+# Flowstate — Context-Aware Browsing Interface
 
-It helps users stay focused by remembering context across browsing sessions and surfacing relevant information when it matters.
+Flowstate is a context-aware browsing assistant designed to reduce friction during web navigation by leveraging **semantic memory**, **intent-aware recall**, and **natural voice/text interaction**.
 
-🚀 Features
-Voice and text-based navigation across active web sessions.
+It helps users stay focused by remembering context across browsing sessions and surfacing relevant information precisely when it matters.
 
-Vector-based semantic memory for storing and retrieving contextual interactions.
+## 🚀 Features
 
-Sub-300 ms contextual retrieval latency through optimized embedding and indexing pipelines.
+- **Voice and text-based navigation** across active web sessions  
+- **Vector-based semantic memory** for storing and retrieving contextual interactions  
+- **Sub-300 ms contextual retrieval latency** through optimized embedding and indexing pipelines  
+- **Intent-aware contextual recall** reducing manual navigation effort by **≈60%**
 
-Intent-aware contextual recall reducing manual navigation effort by 60%.
+## 🛠 Tech Stack
 
-🛠 Tech Stack
-Frontend: Next.js, React
+- **Frontend:** Next.js, React  
+- **Backend:** Node.js  
+- **AI / Intelligence:** Gemini API  
+- **Vector Database:** Milvus  
 
-Backend: Node.js
+## 📦 Getting Started
 
-AI / Intelligence: Gemini API
+### Prerequisites
 
-Vector Database: Milvus
+- Node.js (v18+ recommended)  
+- npm or yarn  
+- Milvus instance (local or remote)  
+- Gemini API key  
 
-📦 Getting Started
-Prerequisites
-Node.js (v18+ recommended)
+### Installation & Running Locally
 
-npm or yarn
-
-Milvus instance (local or remote)
-
-Gemini API key
-
-Installation
-Bash
-
+```bash
+# Clone the repository
 git clone https://github.com/akashpn/Flowstate-1.0.git
-cd Flowstate-1.0
-npm install
-Running Locally
-Bash
 
+# Enter project directory
+cd Flowstate-1.0
+
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
-Open your browser at: http://localhost:3000
 
 🧪 What This Project Demonstrates
-Building user-facing products with measurable impact.
 
-Applying semantic search to real-world browsing workflows.
-
-Designing responsive, low-latency applications.
-
-Translating AI capabilities into practical UX improvements.
+Building user-facing products with measurable impact
+Applying semantic search to real-world browsing workflows
+Designing responsive, low-latency applications
+Translating AI capabilities into practical UX improvements
 
 📈 Impact
-< 300 ms contextual retrieval latency.
 
-60% reduction in manual navigation effort.
+< 300 ms contextual retrieval latency
+≈60% reduction in manual navigation effort
+Persistent contextual understanding across browsing sessions
 
-Persistent contextual understanding across browsing sessions.
+📁 Project Structure
+Flowstate-1.0/
+├── frontend/       # Next.js UI and interaction layer
+├── backend/        # Context management and API logic
+├── embeddings/     # Semantic encoding and retrieval logic
+├── ...             # config, docs, scripts, etc.
 
-📁 Project Structure (High Level)
-Plaintext
-
-/frontend     → Next.js UI and interaction layer  
-/backend      → Context management and API logic  
-/embeddings   → Semantic encoding and retrieval  
 🧠 Flowstate 2.0 — Next Evolution
-Flowstate 2.0 is the next iteration focused on deeper personalization, broader context awareness, and greater user impact. The goal is to evolve from reactive context recall to proactive, intelligent assistance.
-
+Flowstate 2.0 is the next iteration focused on deeper personalization, broader context awareness, and greater user impact.
+The goal is to evolve from reactive context recall to proactive, intelligent assistance.
 ✨ Planned Enhancements (2.0)
-Cross-session and cross-device semantic memory.
 
-Personalized relevance ranking based on user behavior.
-
-Multi-modal context ingestion (documents, PDFs, notes, transcripts).
-
-Proactive context suggestions without explicit queries.
-
-Further latency and scalability optimizations.
+Cross-session and cross-device semantic memory
+Personalized relevance ranking based on user behavior
+Multi-modal context ingestion (documents, PDFs, notes, transcripts)
+Proactive context suggestions without explicit queries
+Further latency and scalability optimizations
 
 ⚙️ Technical Focus (2.0)
-Improved embedding strategies for long-term memory.
 
-Scalable vector indexing and retrieval.
-
-Cleaner service abstractions and APIs.
-
-Enhanced UX for contextual exploration.
+Improved embedding strategies for long-term memory
+Scalable vector indexing and retrieval
+Cleaner service abstractions and APIs
+Enhanced UX for contextual exploration
