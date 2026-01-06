@@ -92,4 +92,7 @@ The goal is to move from **reactive recall** to **proactive, intent-aware assist
 - Cleaner **Node.js service abstractions and APIs**
 - UX improvements in **Next.js** for faster, more intuitive contextual exploration
 
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/e681e2b6-c255-448c-8d58-5ccb9e224a54" />
+
+
 
